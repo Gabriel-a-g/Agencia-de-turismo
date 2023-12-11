@@ -1,8 +1,27 @@
-body {}
+#autor {
+    color: blueviolet;
+}
 
-header {}
+.caja-destino {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 206, 142);
+    font-size: 1.6em;
+    border: 2px solid rgb(0, 0, 0);
+}
 
-footer {}
-
-li {} 
- 
+/* 
+width = ancho
+height = alto
+*/
+header img {
+    width: 110px;
+    height: 110px;
+}
+main img{
+    width: 150px;
+    height: 150px;
+}
+.redes{
+    width: 75px ;
+    height:75px ;
+}
