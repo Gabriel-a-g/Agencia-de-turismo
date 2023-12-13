@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,9 @@
     <title>contacto</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+
     <header>
         <div class="encabesado">
             <div class="encabesado-logo"><img src="imagenes/logo-viaje.png" alt="">
@@ -17,13 +19,13 @@
             <div>
                 <ul>
                     <li>
-                        <a href="">Inicio</a>
+                        <a href="index2.html">Inicio</a>
                     </li>
                     <li>
-                        <a href="#">Ofertas</a>
+                        <a href="ofertas.html">Ofertas</a>
                     </li>
                     <li>
-                        <a href="#">Contacto</a>
+                        <a href="contacto.html">Contacto</a>
 
                     </li>
                 </ul>
@@ -31,48 +33,48 @@
         </div>
     </header>
 
+
     <main>
-        <main>
+        <h1>Contacto</h1>
+        <div class="container">
+
             <div>
-    
-                <div>
-                    <p></p>
-                </div>
-    
-                <div class="contacto">
-                    <form action="/registro" method="post">
-                        <div class="row text-center mb-2">
-                            <div class="col">
-                                <label for="nombreEtiqueta">Nombre:*</label>
-                                <input class="form-control" type="text" id="nombreEtiqueta" name="nombreEtiqueta">
-                            </div>
-                            <div class="col">
-                                <label for="emailEtiqueta">Email:*</label>
-                                <input class="form-control" type="email" id="emailEtiqueta" name="emailEtiqueta"
-                                    placeholder="abc123@email.com">
-                            </div>
-                        </div>
-                        <div class="row text-center">
-                            <div class="col">
-                                <label for="telEtiqueta">Teléfono:*</label>
-                                <input class="form-control" type="number" id="telEtiqueta" name="telEtiqueta">
-                            </div>
-                            <div class="col">
-                                <label for="asuntoEtiqueta">Asunto</label>
-                                <input class="form-control" type="text" id="asuntoEtiqueta" name="asuntoEtiqueta">
-                            </div>
-                        </div>
-                        <div class="row position-absolute bottom-0 w-100 text-center pb-2">
-                            <label for="mensajeTexto" class="form-label">Mensaje*</label>
-                            <textarea class="form-control" id="mensajeTexto" name="mensajeTexto" rows="3"
-                                style="height: 200px"></textarea>
-                            <button type="button" class="btn btn-info w-25 mt-2">Enviar</button>
-                        </div>
-                    </form>
-                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur perferendis sequi velit
+                    laudantium modi iure.</p>
             </div>
-        </main>
-    
+
+            <div class="contacto">
+                <form action="/registro" method="post">
+                    <div class="row">
+                        <div class="col">
+                            <label for="nombreEtiqueta">Nombre:</label>
+                            <input class="form-control" type="text" id="nombreEtiqueta" name="nombreEtiqueta">
+                        </div>
+                        <div class="col">
+                            <label for="emailEtiqueta">Email:*</label>
+                            <input class="form-control" type="email" id="emailEtiqueta" name="emailEtiqueta"
+                                placeholder="abc123@email.com">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="telEtiqueta">Teléfono:</label>
+                            <input class="form-control" type="number" id="telEtiqueta" name="telEtiqueta">
+                        </div>
+                        <div class="col">
+                            <label for="asuntoEtiqueta">Asunto</label>
+                            <input class="form-control" type="text" id="asuntoEtiqueta" name="asuntoEtiqueta">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="mensajeTexto" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensajeTexto" name="mensajeTexto" rows="3"
+                            style="height: 200px"></textarea>
+                        <button type="button" class="btn btn-info w-25 mt-2">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
     <footer>
         <div id="Logos">
@@ -85,4 +87,5 @@
         </div>
     </footer>
 </body>
+
 </html>

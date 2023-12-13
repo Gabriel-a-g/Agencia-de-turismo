@@ -1,5 +1,5 @@
 #autor {
-    color: blueviolet;
+    color: rgb(0, 0, 0);
 }
 
 .caja-destino {
@@ -39,19 +39,55 @@ ul {
 }
 
 ul li {
-    margin-right:9px ;
+    margin-right: 9px;
 }
 
-.encabesado-logo{
+.encabesado-logo {
     display: flex;
     justify-content: space-between;
     margin: 6px;
     align-items: center;
 }
-h1{
+
+h1 {
     margin: 6px;
 }
-footer a{
- margin: 6px ;
+
+footer a {
+    margin: 6px;
 
 }
+
+.container {
+    display: flex;
+    padding: 15px;
+}
+
+.form-control {
+    font-size: 15px;
+    background-color: bisque;
+    margin-inline: 5% 10%;
+    writing-mode: horizontal-tb;
+    border: solid;
+    margin-top: 1em;
+}
+
+.contacto {
+    width: 150px;
+    margin: 0 auto;
+    padding: auto;
+}
+
+footer {
+    justify-content: space-between;
+    display: flex;
+}
+table{
+    color: #000000;
+    margin:0 auto;
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 15px;
+}
+ td{
+border: #ff0000;
+background-color: #ffffff}
